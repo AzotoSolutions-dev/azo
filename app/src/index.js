@@ -145,7 +145,9 @@ function run()
 	{
 		logger.error('WebRTC is unavialable in your browser! deviceInfo: %o', device);
 		webrtcUnavailable=true;
-	} if (device.name === 'safari' && !isNaN(device.version) && parseFloat(device.version) < 12)
+	} 
+	else 
+	if (device.name === 'safari' && !isNaN(device.version) && parseFloat(device.version) < 12)
 	{
 		unsupportedBrowser=true;
 	}
