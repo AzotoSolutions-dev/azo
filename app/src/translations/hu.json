@@ -183,5 +183,10 @@
 	"moderator.clearChat": "A moderátor kiürítette a chat történelmet",
 	"moderator.clearFiles": "A moderátor kiürítette a file megosztás történelmet",
 	"moderator.muteAudio": "A moderátor elnémította a hangod",
-	"moderator.muteVideo": "A moderátor elnémította a videód"
+	"moderator.muteVideo": "A moderátor elnémította a videód",
+
+	"unsupportedBrowser.titleUnsupportedBrowser": "A bőngésző verziód sajnos nem támogatott! :-(",
+	"unsupportedBrowser.titlewebrtcUnavailable": "A böngésződ egy szükséges funkciója nem elérhető!",
+	"unsupportedBrowser.bodyText": "Kérlek frissítsd a böngésződ, válts másik böngészőre, vagy ellenőrizd a böngésződ beállításait! Támogatott böngészők:"
+
 }

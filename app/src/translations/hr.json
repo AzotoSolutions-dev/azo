@@ -183,5 +183,9 @@
 	"moderator.clearChat": "Moderator je izbrisao razgovor",
 	"moderator.clearFiles": "Moderator je izbrisao datoteke",
 	"moderator.muteAudio": "Moderator je utišao tvoj zvuk",
-	"moderator.muteVideo": "Moderator je zaustavio tvoj video"
+	"moderator.muteVideo": "Moderator je zaustavio tvoj video",
+
+	"unsupportedBrowser.titleUnsupportedBrowser": null,
+	"unsupportedBrowser.titlewebrtcUnavailable": null,
+	"unsupportedBrowser.bodyText": null
 }

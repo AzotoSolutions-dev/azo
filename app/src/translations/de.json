@@ -183,5 +183,9 @@
 	"moderator.clearChat": "Moderator hat Chat gelöscht",
 	"moderator.clearFiles": "Moderator hat geteilte Dateiliste gelöscht",
 	"moderator.muteAudio": "Moderator hat dich stummgeschaltet",
-	"moderator.muteVideo": "Moderator hat dein Video gestoppt"
+	"moderator.muteVideo": "Moderator hat dein Video gestoppt",
+
+	"unsupportedBrowser.titleUnsupportedBrowser": null,
+	"unsupportedBrowser.titlewebrtcUnavailable": null,
+	"unsupportedBrowser.bodyText": null
 }

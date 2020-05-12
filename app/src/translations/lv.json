@@ -177,5 +177,9 @@
 	"moderator.clearChat": "Moderators nodzēsa tērziņus",
 	"moderator.clearFiles": "Moderators notīrīja failus",
 	"moderator.muteAudio": "Moderators noklusināja jūsu mikrofonu",
-	"moderator.muteVideo": "Moderators atslēdza jūsu kameru"
+	"moderator.muteVideo": "Moderators atslēdza jūsu kameru",
+
+	"unsupportedBrowser.titleUnsupportedBrowser": null,
+	"unsupportedBrowser.titlewebrtcUnavailable": null,
+	"unsupportedBrowser.bodyText": null
 }

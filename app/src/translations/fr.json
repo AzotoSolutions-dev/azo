@@ -182,5 +182,9 @@
 	"moderator.clearChat": null,
 	"moderator.clearFiles": null,
 	"moderator.muteAudio": null,
-	"moderator.muteVideo": null
+	"moderator.muteVideo": null,
+
+	"unsupportedBrowser.titleUnsupportedBrowser": null,
+	"unsupportedBrowser.titlewebrtcUnavailable": null,
+	"unsupportedBrowser.bodyText": null
 }

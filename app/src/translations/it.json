@@ -183,5 +183,10 @@
 	"moderator.clearChat": "Il moderatore ha pulito la chat",
 	"moderator.clearFiles": "Il moderatore ha pulito i file",
 	"moderator.muteAudio": "Il moderatore ha mutato il tuo audio",
-	"moderator.muteVideo": "Il moderatore ha fermato il tuo video"
+	"moderator.muteVideo": "Il moderatore ha fermato il tuo video",
+
+	"unsupportedBrowser.titleUnsupportedBrowser": null,
+	"unsupportedBrowser.titlewebrtcUnavailable": null,
+	"unsupportedBrowser.bodyText": null
 }
+

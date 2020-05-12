@@ -183,5 +183,9 @@
 	"moderator.clearChat": "Moderator tømte chatten",
 	"moderator.clearFiles": "Moderator fjernet filer",
 	"moderator.muteAudio": "Moderator mutet lyden din",
-	"moderator.muteVideo": "Moderator mutet videoen din"
+	"moderator.muteVideo": "Moderator mutet videoen din",
+
+	"unsupportedBrowser.titleUnsupportedBrowser": null,
+	"unsupportedBrowser.titlewebrtcUnavailable": null,
+	"unsupportedBrowser.bodyText": null
 }
