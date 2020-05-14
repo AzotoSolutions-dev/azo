@@ -336,22 +336,7 @@ const TopBar = (props) =>
 							</IconButton>
 						</Tooltip>
 					}
-					<div className={classes.divider} />
-					<Button
-						aria-label={intl.formatMessage({
-							id             : 'label.leave',
-							defaultMessage : 'Leave'
-						})}
-						className={classes.actionButton}
-						variant='contained'
-						color='secondary'
-						onClick={() => roomClient.close()}
-					>
-						<FormattedMessage
-							id='label.leave'
-							defaultMessage='Leave'
-						/>
-					</Button>
+					<div className={classes.divider} />					
 				</div>
 			</Toolbar>
 		</AppBar>
