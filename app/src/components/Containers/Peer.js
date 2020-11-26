@@ -259,37 +259,6 @@ const Peer = (props) =>
 							</div>
 						</Tooltip>
 
-						{ !smallScreen &&
-							<Tooltip
-								title={intl.formatMessage({
-									id             : 'label.newWindow',
-									defaultMessage : 'New window'
-								})}
-								placement={smallScreen ? 'top' : 'left'}
-							>
-								<div>
-									<Fab
-										aria-label={intl.formatMessage({
-											id             : 'label.newWindow',
-											defaultMessage : 'New window'
-										})}
-										className={classes.fab}
-										disabled={
-											!videoVisible ||
-											(windowConsumer === webcamConsumer.id)
-										}
-										size={smallButtons ? 'small' : 'large'}
-										onClick={() =>
-										{
-											toggleConsumerWindow(webcamConsumer);
-										}}
-									>
-										<NewWindowIcon />
-									</Fab>
-								</div>
-							</Tooltip>
-						}
-
 						<Tooltip
 							title={intl.formatMessage({
 								id             : 'label.fullscreen',
