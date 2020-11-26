@@ -407,37 +407,7 @@ const Peer = (props) =>
 								}, 2000);
 							}}
 						>
-							{ !smallScreen &&
-								<Tooltip
-									title={intl.formatMessage({
-										id             : 'label.newWindow',
-										defaultMessage : 'New window'
-									})}
-									placement={smallScreen ? 'top' : 'left'}
-								>
-									<div>
-										<Fab
-											aria-label={intl.formatMessage({
-												id             : 'label.newWindow',
-												defaultMessage : 'New window'
-											})}
-											className={classes.fab}
-											disabled={
-												!screenVisible ||
-												(windowConsumer === screenConsumer.id)
-											}
-											size={smallButtons ? 'small' : 'large'}
-											onClick={() =>
-											{
-												toggleConsumerWindow(screenConsumer);
-											}}
-										>
-											<NewWindowIcon />
-										</Fab>
-									</div>
-								</Tooltip>
-							}
-
+							
 							<Tooltip
 								title={intl.formatMessage({
 									id             : 'label.fullscreen',
